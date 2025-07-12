@@ -1,6 +1,14 @@
 # tabforest
 Predicting the relevance of titles + abstracts from agroforestry studies
 
+To run any of the models created...
+
+    1. Download the /tabforest/run_model.ipynb as an ipynb and run on Google Colab.
+    2. Upload your own csv with TAB column (including title + abstract info) and Label column of 1s and 0s (1 for relevant and 0 for irrelevant) to Google Colab.
+    3. Follow the intstructions in the Colab notebook. 
+
+
+
 Title + Abstract Team Members & Information:
 
 Laura Vaiurus (Linear Model + Mini Bert + SciBERT models)
@@ -39,10 +47,3 @@ Wendi Zheng (wzheng folder)
                     2. you need to have a column with title + abstract information and name the column 'TAB' or have separate columns with title + abstract information and name them "title" and "abstract" respectively
                     3. you should download the /tabforest/wzheng/run_saved_model.ipynb as an ipynb and run on google collab
         For example of csv format, see TAB_binaryLabel.csv (you need the TAB column and that is it)
-
-TO USE ANY OF THE MODELS CREATED...
-
-    1. Download the /tabforest/run_model.ipynb as an ipynb and run on Google Colab.
-    2. Upload your own csv with TAB column (including title + abstract info) and Label column of 1s and 0s (1 for relevant and 0 for irrelevant) to Google Colab.
-    3. Follow the intstructions in the Colab notebook. 
-
