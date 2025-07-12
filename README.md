@@ -4,6 +4,7 @@ Predicting the relevance of titles + abstracts from agroforestry studies
 Title + Abstract Team Members & Information:
 
 Laura Vaiurus (Linear Model + Mini Bert)
+   
     contact: 
 
     https://www.linkedin.com/in/lauravairus/
@@ -13,6 +14,7 @@ Laura Vaiurus (Linear Model + Mini Bert)
 
 
 Alyssa Wu (SPECTER 1 layer + SPECTER 3 layer models)
+    
     contact: zjwualyssa@gmail.com
 
     https://www.linkedin.com/in/zjwualyssa/
