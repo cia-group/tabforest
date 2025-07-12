@@ -3,7 +3,7 @@ Predicting the relevance of titles + abstracts from agroforestry studies
 
 Title + Abstract Team Members & Information:
 
-Laura Vaiurus (Linear Model + Mini Bert)
+Laura Vaiurus (Linear Model + Mini Bert + SciBERT models)
    
     contact: 
 
@@ -11,6 +11,7 @@ Laura Vaiurus (Linear Model + Mini Bert)
 
     * Linear (naive bayes) model had performance of 0.81 recall and 0.33 precision.
     * Mini Bert model had performance of 0.54 recall and 0.53 precision.
+    * SciBERT model had performance of 0.55 recall and 0.52 precision.
 
 
 Alyssa Wu (SPECTER 1 layer + SPECTER 3 layer models)
