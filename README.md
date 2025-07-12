@@ -40,6 +40,7 @@ Wendi Zheng (wzheng folder)
         For example of csv format, see TAB_binaryLabel.csv (you need the TAB column and that is it)
 
 TO USE ANY OF THE MODELS CREATED...
+
     1. Download the /tabforest/run_model.ipynb as an ipynb and run on Google Colab.
     2. Upload your own csv with TAB column (including title + abstract info) and Label column of 1s and 0s (1 for relevant and 0 for irrelevant) to Google Colab.
     3. Follow the intstructions in the Colab notebook. 
