@@ -13,7 +13,7 @@ Our final product is a [google colab]() where the TCC team can run these models 
 
 Prior to using this colab, you must obtain a table of preliminary papers with title and abstract information, such as by conducting a basic search on Web of Science. Once completed, follow the steps below to get predictions for which papers are relevant. 
 
-1. Go to the [run_models.ipynb]() google colab and click the “Open in Colab” blue button at the top to open a copy of the notebook. 
+1. Go to the [run_models.ipynb](https://github.com/cia-group/tabforest/blob/main/run_models.ipynb) google colab and click the “Open in Colab” blue button at the top to open a copy of the notebook. 
 2. Follow the instructions in the Colab notebook, or follow along with this [video walkthrough]().
 3. After your predictions are completed, you can read through the papers that were predicted as relevant and conduct your research from there. 
 4. See the sections below for more information on the available models, precision and recall, and troubleshooting advice. If you have any questions, please feel free to contact us! 
