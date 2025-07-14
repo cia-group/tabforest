@@ -1,20 +1,20 @@
 
 # Code the Change: NLP Models for Agroforestry Paper Relevance Prediction
 
-(click here for a video walkthrough of this repository)
+[(click here for a video walkthrough of this repository)]()
 
-We worked with Susan Cook-Patton, Ph.D. and the Tackle Climate Change (TCC) team from The Nature Conservancy to streamline their agroforestry evidence synthesis process. 
+We worked with [Susan Cook-Patton, Ph.D.]() and the Tackle Climate Change (TCC) team from [The Nature Conservancy]() to streamline their agroforestry evidence synthesis process. 
 
-We built language models that can read the title and abstract of a paper and predict whether it is relevant for the TCC team. See linked slide decks of our interim and final presentations of our work. 
+We built language models that can read the title and abstract of a paper and predict whether it is relevant for the TCC team. See linked slide decks of our [interim]() and [final]() presentations of our work. 
 
-Our final product is a google colab where the TCC team can run these models themselves and get relevance predictions for new collections of agroforestry publications. 
+Our final product is a [google colab]() where the TCC team can run these models themselves and get relevance predictions for new collections of agroforestry publications. 
 
 ## Use Instructions:
 
 Prior to using this colab, you must obtain a table of preliminary papers with title and abstract information, such as by conducting a basic search on Web of Science. Once completed, follow the steps below to get predictions for which papers are relevant. 
 
-1. Go to the run_models.ipynb google colab and click the “Open in Colab” blue button at the top to open a copy of the notebook. 
-2. Follow the instructions in the Colab notebook, or follow along with this video walkthrough.
+1. Go to the [run_models.ipynb]() google colab and click the “Open in Colab” blue button at the top to open a copy of the notebook. 
+2. Follow the instructions in the Colab notebook, or follow along with this [video walkthrough]().
 3. After your predictions are completed, you can read through the papers that were predicted as relevant and conduct your research from there. 
 4. See the sections below for more information on the available models, precision and recall, and troubleshooting advice. If you have any questions, please feel free to contact us! 
 
@@ -22,21 +22,25 @@ Note: This tool is intended to be used in the TCC team’s agroforestry evidence
 
 ## Contributors
 
-**Charlotte Chang (PI):** Assistant Professor of Biology and Environmental Analysis at Pomona College 
+**Charlotte Chang (Principal Investigator):** \
+&emsp;Assistant Professor of Biology and Environmental Analysis at Pomona College 
 
-All students trained a variety of different language models and co code to run their respective best performing models in the run_models.ipynb final product. 
+All students trained a variety of different language models and co-coded to run their respective best performing models in the run_models.ipynb final product. 
 
-**Laura Vairus:** Student at Harvey Mudd College
-- SciBERT, MiniBERT, and Naive Bayes model
-- contact: lvairus@hmc.edu || [linkedin](https://www.linkedin.com/in/lauravairus/)
+**Laura Vairus (Student Lead):** \
+&emsp; Student at Harvey Mudd College \
+&emsp; SciBERT, MiniBERT, and Naive Bayes model \
+&emsp; contact: lvairus@hmc.edu | [linkedin](https://www.linkedin.com/in/lauravairus/)
 
-**Alyssa Wu:** Student at Pomona College
-- SPECTER models
-- contact: zjwualyssa@gmail.com || [linkedin](https://www.linkedin.com/in/zjwualyssa/)
+**Alyssa Wu:** \
+&emsp; Student at Pomona College \
+&emsp; SPECTER models \
+&emsp; contact: zjwualyssa@gmail.com | [linkedin](https://www.linkedin.com/in/zjwualyssa/)
 
-**Wendi Zheng:** Student at Columbia Univeristy
-- BERT Precision model
-- contact: wendizheng06@gmail.com || [linkedin](https://www.linkedin.com/in/wendi-zheng-442588235/)
+**Wendi Zheng:** \
+&emsp; Student at Columbia Univeristy \
+&emsp; BERT Precision models \
+&emsp; contact: wendizheng06@gmail.com | [linkedin](https://www.linkedin.com/in/wendi-zheng-442588235/)
 
 ## Best Performing Models
 
