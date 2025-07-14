@@ -34,15 +34,15 @@ All students trained a variety of different language models and co code to run t
 - SPECTER models
 - contact: zjwualyssa@gmail.com || [linkedin](https://www.linkedin.com/in/zjwualyssa/)
 
-**Wendi Zheng:** Student at Harvey Mudd College
+**Wendi Zheng:** Student at Columbia Univeristy
 - BERT Precision model
-- contact: wzheng@hmc.edu || [linkedin](https://www.linkedin.com/in/wendi-zheng-442588235/)
+- contact: wendizheng06@gmail.com || [linkedin](https://www.linkedin.com/in/wendi-zheng-442588235/)
 
 ## Best Performing Models
 
 | Model Name    | Precision | Recall | Notes  |
 | :-------------: | :---------: | :------: | :------ |
-| BERT            |  0.70     |  0.23  |  **highest precision** (read through least amount of irrelevant papers but capture less relevant papers from input)      |
+| BERT            |  0.70     |  0.27  |  **highest precision** (read through least amount of irrelevant papers but capture less relevant papers from input)      |
 | MINIBERT        |  0.53     |  0.54  | of the bert models, the smallest and quickest to run      |
 | SCIBERT         |  0.52     |  0.55  |  largest model (takes most time/compute power to run)      |
 | SPECTER-1LAYER  |  0.33     |  0.77  |  of the specter models, the smallest and quickest to run      |
