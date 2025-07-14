@@ -1,20 +1,20 @@
 
 # Code the Change: NLP Models for Agroforestry Paper Relevance Prediction
 
-[(click here for a video walkthrough of this repository)]()
+[(click here for a video walkthrough of this repository)](https://youtu.be/83Tp07NF_UI)
 
-We worked with [Susan Cook-Patton, Ph.D.]() and the Tackle Climate Change (TCC) team from [The Nature Conservancy]() to streamline their agroforestry evidence synthesis process. 
+We worked with [Susan Cook-Patton, Ph.D.](https://www.linkedin.com/in/susan-cook-patton-ph-d-3904a448/) and the Tackle Climate Change (TCC) team from [The Nature Conservancy](https://www.nature.org/en-us/) to streamline their agroforestry evidence synthesis process. 
 
-We built language models that can read the title and abstract of a paper and predict whether it is relevant for the TCC team. See linked slide decks of our [interim]() and [final]() presentations of our work. 
+We built language models that can read the title and abstract of a paper and predict whether it is relevant for the TCC team. See linked slide decks of our [interim](https://github.com/cia-group/tabforest/blob/main/presentation_slides/TAB%20Interim%20Pres.pdf) and [final](https://github.com/cia-group/tabforest/blob/main/presentation_slides/TAB%20Final%20Pres.pdf) presentations of our work. 
 
-Our final product is a [google colab]() where the TCC team can run these models themselves and get relevance predictions for new collections of agroforestry publications. 
+Our final product is a [Google Colab](https://github.com/cia-group/tabforest/blob/main/run_models.ipynb) where the TCC team can run these models themselves and get relevance predictions for new collections of agroforestry publications. 
 
 ## Use Instructions:
 
 Prior to using this colab, you must obtain a table of preliminary papers with title and abstract information, such as by conducting a basic search on Web of Science. Once completed, follow the steps below to get predictions for which papers are relevant. 
 
 1. Go to the [run_models.ipynb](https://github.com/cia-group/tabforest/blob/main/run_models.ipynb) google colab and click the “Open in Colab” blue button at the top to open a copy of the notebook. 
-2. Follow the instructions in the Colab notebook, or follow along with this [video walkthrough]().
+2. Follow the instructions in the Colab notebook, or follow along with this [video walkthrough](https://youtu.be/SKrD9qxU9mw).
 3. After your predictions are completed, you can read through the papers that were predicted as relevant and conduct your research from there. 
 4. See the sections below for more information on the available models, precision and recall, and troubleshooting advice. If you have any questions, please feel free to contact us! 
 
