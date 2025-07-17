@@ -44,14 +44,16 @@ All students trained a variety of different language models and co-coded to run 
 
 ## Best Performing Models
 
-| Model Name    | Precision | Recall | Notes  |
-| :-------------: | :---------: | :------: | :------ |
-| BERT            |  0.70     |  0.27  |  **highest precision** (read through least amount of irrelevant papers but capture less relevant papers from input)      |
-| MINIBERT        |  0.53     |  0.54  | of the bert models, the smallest and quickest to run      |
-| SCIBERT         |  0.52     |  0.55  |  largest model (takes most time/compute power to run)      |
-| SPECTER-1LAYER  |  0.33     |  0.77  |  of the specter models, the smallest and quickest to run      |
-| SPECTER-3LAYER  |  0.22     |  0.96  |  **highest recall** (capture more relevant papers from input but sort through more irrelevant papers)      |
-| NAIVEBAYES      |  0.33     |  0.81  |  smallest model (takes least time/compute power to run)      |
+| Model Name      | Precision | Recall | CPU    | GPU   | Notes  |
+| :-------------: | :-------: | :----: | :----: | :---: | :----- |
+| BERT            |  0.70     |  0.27  |   2m   |  2m   | **highest precision** (read through least amount of irrelevant papers but capture less relevant papers from input)      |
+| MINIBERT        |  0.53     |  0.54  |   1m   |  15s  | of the bert models, the smallest and quickest to run      |
+| SCIBERT         |  0.52     |  0.55  |   20m  |  2m   | largest model (takes most time/compute power to run)      |
+| SPECTER-1LAYER  |  0.33     |  0.77  |   15m  |  2m   | of the specter models, the smallest and quickest to run      |
+| SPECTER-3LAYER  |  0.22     |  0.96  |   15m  |  2m   | **highest recall** (capture more relevant papers from input but sort through more irrelevant papers)      |
+| NAIVEBAYES      |  0.33     |  0.81  |   15s  |  15s  | smallest model (takes least time/compute power to run)      |
+
+Note: CPU and GPU columns indicate the approximate time it takes to run predictions on 1000 papers with the respective processing units.
 
 ## Precision and Recall
 
@@ -60,12 +62,15 @@ All students trained a variety of different language models and co-coded to run 
 - Maximize precision if you want to sift through the least amount of irrelevant papers, but keep in mind you will miss a larger fraction of truly relevant papers, since they will be mistakenly classified as irrelevant.
 - Maximize recall if you want to capture the most relevant papers from your given set, but keep in mind you will have to sift through more irrelevant papers that were mistakenly classified as relevant
 
-## Colab Troubleshooting
+## Colab Notes/Troubleshooting
 
-- If you get an error, first try looking for our manually printed error, which should explain more clearly what went wrong and how to fix it. It will be right below the cell you just ran and will start with “ERROR”, before any of the red colored text.
+- If you'd like your predictions to run faster, try using Colab's GPU processor by going to the top navigation bar and selecting 'Runtime' > 'Change runtime type' > 'T4 GPU' and running the colab from the beginning.
+    - If you don't have a Colab subscription, you aren't guaranteed access to the GPU at all times
+    - It is unlikely but possible that you will be disconnected from the GPU if your session lasts too long.
+- If you get an error, first try looking for our manually printed error note, which should be below the code cell you last ran and before any red colored text. It will explain more clearly what went wrong and how to fix it. 
 - If you get an unknown error, try reloading the page and starting from scratch by rerunning the top code cell again (which installs the required libraries to set up the environment).
 - If you get any warnings, you should be able to ignore them.
-- If you have any questions, please feel free to contact us!
+- If you have any concerns/questions, please feel free to contact us!
 
 ## Training Notes
 
